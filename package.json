@@ -1,0 +1,16 @@
+{
+    "name": "deployment",
+    "version": "1.0.0",
+    "description": "testing deployment",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "source ./scripts/build.sh",
+        "deploy": "source ./scripts/deploy.sh ./env/logongas.env"
+    },
+    "author": "Richard Yuste",
+    "license": "ISC",
+    "dependencies": {
+        "deployment": "file:"
+    }
+}
